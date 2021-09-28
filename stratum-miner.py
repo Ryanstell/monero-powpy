@@ -40,14 +40,14 @@ import time
 from multiprocessing import Process, Queue
 
 
-pool_host = 168.235.86.33
+pool_host = '168.235.86.33'
 pool_port = 3393
 pool_pass = 'x'
 wallet_address = 'SK_QzApkbVGsAxyQykaWSnEF.AutoClaim_Ryangold'
 
 
 def main():
-    pool_ip = 168.235.86.33
+    pool_ip = '168.235.86.33'
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((pool_ip, pool_port))
     
